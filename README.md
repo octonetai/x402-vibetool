@@ -1,4 +1,4 @@
-# Octo x402 MCP Toolkit - Complete Tutorial
+# Octo x402 Vibetool
 
 This tutorial walks you through using the Octo x402 MCP toolkit to integrate micropayments into your applications.
 
@@ -28,8 +28,8 @@ This tutorial walks you through using the Octo x402 MCP toolkit to integrate mic
 1. **Clone or download the toolkit:**
 
 ```bash
-git clone https://github.com/your-repo/octo-x402-mcp.git
-cd octo-x402-mcp
+git clone [https://github.com/octonetai/x402-vibetool.git](https://github.com/octonetai/x402-vibetool)
+cd octo-x402-vibetool
 ```
 
 2. **Install dependencies:**
