@@ -1,0 +1,43 @@
+{
+  "name": "octo-x402-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) toolkit for Octo x402 micropayment protocol - supports EVM and SVM networks",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "octo-x402-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "x402",
+    "octo",
+    "payments",
+    "micropayments",
+    "blockchain",
+    "ethereum",
+    "solana",
+    "usdc",
+    "base",
+    "polygon",
+    "avalanche"
+  ],
+  "author": "Octo x402",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "@solana/spl-token": "^0.4.1",
+    "@solana/web3.js": "^1.91.0",
+    "axios": "^1.6.0",
+    "bs58": "^5.0.0",
+    "ethers": "^6.10.0",
+    "zod": "^3.22.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
